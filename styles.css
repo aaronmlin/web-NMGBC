@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Open Sauce';
+    src: url('fonts/open-sauce/OpenSauce-Regular.woff2') format('woff2'),
+         url('fonts/open-sauce/OpenSauce-Regular.woff') format('woff'),
+         url('fonts/open-sauce/OpenSauce-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pinyon Script';
+    src: url('fonts/pinyon-script/PinyonScript-Regular.woff2') format('woff2'),
+         url('fonts/pinyon-script/PinyonScript-Regular.woff') format('woff'),
+         url('fonts/pinyon-script/PinyonScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tex Gyre Termes';
+    src: url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff2') format('woff2'),
+         url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff') format('woff'),
+         url('fonts/tex-gyre-termes/TexGyreTermes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Open Sauce', sans-serif;
+}
+
+h1 {
+    font-family: 'Pinyon Script', cursive;
+}
+
+p {
+    font-family: 'Tex Gyre Termes', serif;
+}
