@@ -1,38 +1,1314 @@
-@font-face {
-    font-family: 'Open Sauce';
-    src: url('fonts/open-sauce/OpenSauce-Regular.woff2') format('woff2'),
-         url('fonts/open-sauce/OpenSauce-Regular.woff') format('woff'),
-         url('fonts/open-sauce/OpenSauce-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+    /* @font-face {
+        font-family: 'Open Sauce';
+        src: url('fonts/open-sauce/OpenSauce-Regular.woff2') format('woff2'),
+                url('fonts/open-sauce/OpenSauce-Regular.woff') format('woff'),
+                url('fonts/open-sauce/OpenSauce-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'Pinyon Script';
-    src: url('fonts/pinyon-script/PinyonScript-Regular.woff2') format('woff2'),
-         url('fonts/pinyon-script/PinyonScript-Regular.woff') format('woff'),
-         url('fonts/pinyon-script/PinyonScript-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Pinyon Script';
+        src: url('fonts/pinyon-script/PinyonScript-Regular.woff2') format('woff2'),
+                url('fonts/pinyon-script/PinyonScript-Regular.woff') format('woff'),
+                url('fonts/pinyon-script/PinyonScript-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'Tex Gyre Termes';
-    src: url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff2') format('woff2'),
-         url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff') format('woff'),
-         url('fonts/tex-gyre-termes/TexGyreTermes-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Tex Gyre Termes';
+        src: url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff2') format('woff2'),
+                url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff') format('woff'),
+                url('fonts/tex-gyre-termes/TexGyreTermes-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-body {
-    font-family: 'Open Sauce', sans-serif;
-}
+    body {
+        font-family: 'Open Sauce', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
 
-h1 {
-    font-family: 'Pinyon Script', cursive;
-}
+    header {
+        background-color: #002855;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
 
-p {
-    font-family: 'Tex Gyre Termes', serif;
-}
+    h1 {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    p, li {
+        font-family: 'Tex Gyre Termes', serif;
+        font-size: 1.1em;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h2 {
+        color: #002855;
+        font-size: 1.8em;
+    }
+
+    ul {
+        list-style-type: square;
+        padding-left: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #002855;
+        color: white;
+    } */
+
+
+    .desktop-1-child {
+        position: absolute;
+        top: -141px;
+        left: -358px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(93, 0, 0, 0.9) 10%, rgba(10, 5, 63, 0.65) 25.5%, rgba(10, 5, 63, 0.9) 52.5%, rgba(93, 0, 0, 0.9));
+        width: 1997px;
+        height: 11328px;
+  }
+  .ompetition {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        letter-spacing: -0.09em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 783px;
+        height: 134px;
+  }
+  .ompetition-wrapper {
+        position: absolute;
+        top: 96px;
+        left: 197px;
+        width: 783px;
+        height: 134px;
+        font-size: 120px;
+        font-family: 'TeX Gyre Termes';
+  }
+  .c {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 606px;
+        height: 239px;
+  }
+  .s {
+        position: absolute;
+        top: 0px;
+        left: 622px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 413px;
+        height: 230px;
+  }
+  .group-container {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 1035px;
+        height: 239px;
+  }
+  .icon {
+        position: absolute;
+        top: 0px;
+        left: 499px;
+        width: 118px;
+        height: 93px;
+        object-fit: cover;
+  }
+  .group-parent {
+        position: absolute;
+        top: 5805px;
+        left: 167px;
+        width: 1035px;
+        height: 239px;
+        font-size: 300px;
+        color: #fff;
+        font-family: 'Pinyon Script';
+  }
+  .icon1 {
+        position: absolute;
+        top: 26px;
+        left: 74px;
+        width: 1516.2px;
+        height: 1426.4px;
+        object-fit: contain;
+  }
+  .desktop-1-item {
+        position: absolute;
+        top: 810px;
+        left: 136px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+        backdrop-filter: blur(100px);
+        border-radius: 55px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(93, 0, 0, 0.6), rgba(10, 5, 63, 0.6) 63%);
+        width: 1174px;
+        height: 420px;
+  }
+  .nmgbc {
+        position: absolute;
+        top: 80px;
+        left: 194px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 917px;
+        height: 334px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .n {
+        position: absolute;
+        top: 0px;
+        left: 344px;
+        font-size: 80px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        display: inline-block;
+        width: 143px;
+        height: 74px;
+  }
+  .div {
+        position: absolute;
+        top: 199px;
+        left: 0px;
+        font-size: 170px;
+        letter-spacing: -0.09em;
+        text-align: right;
+        display: inline-block;
+        width: 917px;
+        height: 244px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .ational-medical-and {
+        margin: 0;
+        white-space: pre-wrap;
+  }
+  .general-biology-competition {
+        margin: 0;
+  }
+  .ational-medical-and-container {
+        position: absolute;
+        top: 34px;
+        left: 403px;
+        font-size: 40px;
+        letter-spacing: -0.03em;
+        line-height: 100%;
+        display: inline-block;
+        font-weight: 300;
+        font-family: 'Open Sauce Sans';
+        text-align: left;
+        width: 779px;
+        height: 126px;
+  }
+  .nmgbc-parent {
+        position: absolute;
+        top: 268px;
+        left: -130px;
+        width: 1182px;
+        height: 443px;
+        font-size: 160px;
+        color: #fff;
+        font-family: 'TeX Gyre Termes';
+  }
+  .the-national-medical {
+        font-weight: 900;
+        font-family: 'Open Sauce Sans';
+  }
+  .t {
+        font-family: 'Open Sauce Sans';
+  }
+  .the-national-medical-container {
+        position: absolute;
+        top: 888px;
+        left: 212px;
+        font-size: 25px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        color: #fff;
+        text-align: justify;
+        display: inline-block;
+        width: 1017px;
+        height: 382px;
+  }
+  .icon2 {
+        position: absolute;
+        top: 4193px;
+        left: -91px;
+        width: 1652.3px;
+        height: 1579px;
+        object-fit: contain;
+  }
+  .icon3 {
+        position: absolute;
+        top: 2742px;
+        left: 486px;
+        width: 854.4px;
+        height: 902px;
+        object-fit: cover;
+  }
+  .this-years {
+        position: absolute;
+        top: 0px;
+        left: 245px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 434px;
+        height: 94px;
+  }
+  .heme {
+        position: absolute;
+        top: 40px;
+        left: 175px;
+        font-size: 150px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 403px;
+        height: 165px;
+  }
+  .t1 {
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        font-size: 200px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        display: inline-block;
+        width: 311px;
+        height: 167px;
+  }
+  .this-years-parent {
+        position: absolute;
+        top: 1481px;
+        left: 143px;
+        width: 679px;
+        height: 205px;
+        font-size: 100px;
+        color: #fff;
+        font-family: 'TeX Gyre Termes';
+  }
+  .desktop-1-inner {
+        position: absolute;
+        top: 4114.56px;
+        left: -511px;
+        border-radius: 50%;
+        background: radial-gradient(50% 50% at 50% 50%, #5d0000, rgba(10, 5, 63, 0) 81%);
+        width: 1191px;
+        height: 1187px;
+        transform:  rotate(-69.6deg);
+        transform-origin: 0 0;
+  }
+  .nmgbc-2025-dives-container {
+        position: absolute;
+        top: 1756px;
+        left: 200px;
+        font-size: 25px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        color: #fff;
+        text-align: justify;
+        display: inline-block;
+        width: 603px;
+        height: 677px;
+  }
+  .imeline {
+        position: absolute;
+        top: 4518px;
+        left: 460px;
+        font-size: 150px;
+        letter-spacing: -0.09em;
+        color: #fff;
+        display: inline-block;
+        width: 606px;
+        height: 199px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .t2 {
+        position: absolute;
+        top: 4504px;
+        left: 373px;
+        font-size: 200px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        color: #fff;
+        display: inline-block;
+        width: 263px;
+        height: 199px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .group-child {
+        position: absolute;
+        top: 267px;
+        left: 201px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 46.5px;
+        background-color: #a21919;
+        width: 251px;
+        height: 51px;
+  }
+  .group-item {
+        position: absolute;
+        top: 69px;
+        left: 515px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 614px;
+  }
+  .preliminary-round {
+        position: absolute;
+        top: 313px;
+        left: 81px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 447px;
+        height: 95px;
+  }
+  .early-bird-registration-container {
+        position: absolute;
+        top: 42px;
+        left: 21px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 447px;
+        height: 95px;
+  }
+  .may-24th-2025 {
+        position: absolute;
+        top: 271px;
+        left: 221px;
+        font-size: 30px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        font-family: 'Open Sauce Sans';
+        display: inline-block;
+        width: 327px;
+        height: 65px;
+  }
+  .group-inner {
+        position: absolute;
+        top: 574px;
+        left: 210px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 46.5px;
+        background-color: #a21919;
+        width: 237px;
+        height: 51px;
+  }
+  .final-round {
+        position: absolute;
+        top: 620px;
+        left: 0px;
+        letter-spacing: -0.09em;
+        text-align: right;
+        display: inline-block;
+        width: 447px;
+        height: 95px;
+  }
+  .april-1st-2025 {
+        position: absolute;
+        top: 578px;
+        left: 231px;
+        font-size: 30px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        font-family: 'Open Sauce Sans';
+        display: inline-block;
+        width: 327px;
+        height: 65px;
+  }
+  .rectangle-div {
+        position: absolute;
+        top: 0px;
+        left: 106px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 46.5px;
+        background-color: #a21919;
+        width: 350px;
+        height: 51px;
+  }
+  .march-9th- {
+        position: absolute;
+        top: 4px;
+        left: 125px;
+        font-size: 30px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        font-family: 'Open Sauce Sans';
+        display: inline-block;
+        width: 327px;
+        height: 65px;
+  }
+  .late-bird-registration-container {
+        position: absolute;
+        top: 183px;
+        left: 587px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 447px;
+        height: 95px;
+  }
+  .group-child1 {
+        position: absolute;
+        top: 137px;
+        left: 578px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 46.5px;
+        background-color: #a21919;
+        width: 436px;
+        height: 51px;
+  }
+  .march-30th- {
+        position: absolute;
+        top: 141px;
+        left: 597px;
+        font-size: 30px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        font-family: 'Open Sauce Sans';
+        display: inline-block;
+        width: 427px;
+        height: 65px;
+  }
+  .semifinal-round {
+        position: absolute;
+        top: 493px;
+        left: 587px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 447px;
+        height: 95px;
+  }
+  .group-child2 {
+        position: absolute;
+        top: 447px;
+        left: 578px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 46.5px;
+        background-color: #a21919;
+        width: 246px;
+        height: 51px;
+  }
+  .may-31st-2025 {
+        position: absolute;
+        top: 451px;
+        left: 597px;
+        font-size: 30px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        font-family: 'Open Sauce Sans';
+        display: inline-block;
+        width: 427px;
+        height: 65px;
+  }
+  .rectangle-parent {
+        position: absolute;
+        top: 4754px;
+        left: 205px;
+        width: 1034px;
+        height: 715px;
+        text-align: left;
+        font-size: 60px;
+        color: #fff;
+        font-family: 'TeX Gyre Termes';
+  }
+  .desktop-1-child1 {
+        position: absolute;
+        top: 6164px;
+        left: 188px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+        border-radius: 76px;
+        background: radial-gradient(50% 50% at 50% 50%, #fff, rgba(93, 0, 0, 0.1));
+        width: 1065px;
+        height: 631px;
+  }
+  .icon4 {
+        position: absolute;
+        top: 2916px;
+        left: 757px;
+        width: 496px;
+        height: 489px;
+        object-fit: cover;
+  }
+  .desktop-1-child2 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #fff;
+        width: 1440px;
+        height: 100px;
+  }
+  .home {
+        position: absolute;
+        top: 33px;
+        left: 188px;
+        font-size: 30px;
+        text-align: left;
+        display: inline-block;
+        width: 123px;
+        height: 58px;
+  }
+  .theme {
+        position: absolute;
+        top: 42px;
+        left: 504px;
+        text-align: left;
+        display: inline-block;
+        width: 123px;
+        height: 58px;
+  }
+  .timeline {
+        position: absolute;
+        top: 42px;
+        left: 772px;
+        text-align: left;
+        display: inline-block;
+        width: 172px;
+        height: 58px;
+  }
+  .history {
+        position: absolute;
+        top: 42px;
+        left: 641px;
+        text-align: left;
+        display: inline-block;
+        width: 172px;
+        height: 58px;
+  }
+  .competitions {
+        position: absolute;
+        top: 42px;
+        left: 912px;
+        text-align: left;
+        display: inline-block;
+        width: 172px;
+        height: 58px;
+  }
+  .sponsor {
+        position: absolute;
+        top: 42px;
+        left: 1088px;
+        text-align: left;
+        display: inline-block;
+        width: 172px;
+        height: 58px;
+  }
+  .icon5 {
+        position: absolute;
+        top: 3323px;
+        left: -68px;
+        width: 1545.7px;
+        height: 1412.9px;
+        object-fit: contain;
+  }
+  .desktop-1-child3 {
+        position: absolute;
+        top: 26px;
+        left: 1234px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 21px;
+        background-color: #5d0000;
+        width: 175px;
+        height: 54px;
+  }
+  .register {
+        position: absolute;
+        top: 26px;
+        left: 1235px;
+        font-size: 30px;
+        display: inline-block;
+        font-family: 'TeX Gyre Termes';
+        color: #fff;
+        width: 172px;
+        height: 58px;
+  }
+  .logo-2-icon {
+        position: absolute;
+        top: 0px;
+        left: 44px;
+        width: 91.9px;
+        height: 105px;
+        object-fit: cover;
+  }
+  .hroughout {
+        position: absolute;
+        top: 24px;
+        left: 259px;
+        letter-spacing: -0.09em;
+        font-family: 'TeX Gyre Termes';
+        display: inline-block;
+        width: 516px;
+        height: 165px;
+  }
+  .the1 {
+        position: absolute;
+        top: 204px;
+        left: 44px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 516px;
+        height: 165px;
+  }
+  .ears {
+        position: absolute;
+        top: 194px;
+        left: 442px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 516px;
+        height: 165px;
+  }
+  .t3 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 300px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        display: inline-block;
+        width: 311px;
+        height: 167px;
+  }
+  .y {
+        position: absolute;
+        top: 178px;
+        left: 333px;
+        font-size: 250px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        display: inline-block;
+        width: 311px;
+        height: 290px;
+  }
+  .hroughout-parent {
+        position: absolute;
+        top: 2562px;
+        left: 258px;
+        width: 958px;
+        height: 468px;
+        font-size: 150px;
+        color: #fff;
+  }
+  .desktop-1-child4 {
+        position: absolute;
+        top: 3070px;
+        left: 188px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 95px;
+        background-color: #d9d9d9;
+        width: 1065px;
+        height: 1097px;
+  }
+  .desktop-1-child5 {
+        position: absolute;
+        top: 1803px;
+        left: 842px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 241px;
+        background-color: #d9d9d9;
+        width: 493px;
+        height: 482px;
+  }
+  .desktop-1-child6 {
+        position: absolute;
+        top: 6920px;
+        left: 188px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 92px;
+        background: radial-gradient(50% 50% at 50% 50%, #fff, rgba(93, 0, 0, 0.1));
+        width: 1065px;
+        height: 657px;
+  }
+  .icon6 {
+        position: absolute;
+        top: 6142px;
+        left: 778px;
+        width: 473.7px;
+        height: 653px;
+        object-fit: contain;
+  }
+  .the-health-speech-container {
+        position: absolute;
+        top: 7119px;
+        left: 662px;
+        font-size: 25px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        text-align: justify;
+        display: inline-block;
+        width: 533px;
+        height: 382px;
+  }
+  .desktop-1-child7 {
+        position: absolute;
+        top: 7709px;
+        left: 188px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 90px;
+        background: radial-gradient(50% 50% at 50% 50%, #fff, rgba(93, 0, 0, 0.1));
+        width: 1065px;
+        height: 610px;
+  }
+  .the-public-poster-container {
+        position: absolute;
+        top: 7893px;
+        left: 250px;
+        font-size: 25px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        text-align: justify;
+        display: inline-block;
+        width: 529px;
+        height: 382px;
+  }
+  .iology-and-eneral-container {
+        position: absolute;
+        top: 22px;
+        left: 0px;
+        letter-spacing: -0.09em;
+        line-height: 45px;
+        display: flex;
+        align-items: center;
+        width: 783px;
+        height: 285px;
+  }
+  .competition {
+        position: absolute;
+        top: 180px;
+        left: 245px;
+        letter-spacing: -0.09em;
+        line-height: 70px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 377px;
+        height: 99px;
+  }
+  .medicine-txt {
+        width: 100%;
+  }
+  .medicine {
+        position: absolute;
+        top: 123px;
+        left: 408px;
+        font-size: 60px;
+        letter-spacing: -0.09em;
+        line-height: 70px;
+        display: flex;
+        align-items: center;
+        width: 285px;
+        height: 120px;
+        font-family: 'TeX Gyre Termes';
+  }
+  .b4 {
+        position: absolute;
+        top: 0px;
+        left: 188px;
+        font-size: 100px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 136px;
+        height: 285px;
+  }
+  .g {
+        position: absolute;
+        top: 69px;
+        left: 228px;
+        font-size: 100px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 136px;
+        height: 285px;
+  }
+  .iology-and-eneral-parent {
+        position: absolute;
+        top: 6181px;
+        left: 552px;
+        width: 783px;
+        height: 354px;
+        font-size: 50px;
+  }
+  .the-biology-competition-container {
+        position: absolute;
+        top: 6344px;
+        left: 246px;
+        font-size: 25px;
+        letter-spacing: -0.03em;
+        line-height: 140%;
+        text-align: justify;
+        display: inline-block;
+        width: 500px;
+        height: 382px;
+  }
+  .icon7 {
+        position: absolute;
+        top: 6920px;
+        left: 188px;
+        width: 473.7px;
+        height: 653px;
+        object-fit: cover;
+  }
+  .icon8 {
+        position: absolute;
+        top: 7670px;
+        left: 779px;
+        width: 473.7px;
+        height: 653px;
+        object-fit: contain;
+  }
+  .icon9 {
+        position: absolute;
+        top: 8431px;
+        left: 23px;
+        width: 1320px;
+        height: 1518.7px;
+        object-fit: contain;
+  }
+  .competition1 {
+        position: absolute;
+        top: 141px;
+        left: 41px;
+        letter-spacing: -0.09em;
+        line-height: 70px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 376px;
+        height: 99px;
+  }
+  .ealth {
+        position: absolute;
+        top: 84px;
+        left: 17px;
+        letter-spacing: -0.09em;
+        line-height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 256px;
+        height: 126px;
+  }
+  .speech {
+        position: absolute;
+        top: 80px;
+        left: 151px;
+        font-size: 60px;
+        letter-spacing: -0.05em;
+        line-height: 70px;
+        font-family: 'TeX Gyre Termes';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 256px;
+        height: 126px;
+  }
+  .h {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 100px;
+        letter-spacing: -0.09em;
+        font-family: 'Pinyon Script';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 136px;
+        height: 285px;
+  }
+  .competition-parent {
+        position: absolute;
+        top: 6999px;
+        left: 229px;
+        width: 417px;
+        height: 285px;
+        font-size: 50px;
+  }
+  .competition2 {
+        position: absolute;
+        top: 140px;
+        left: 14px;
+        letter-spacing: -0.09em;
+        line-height: 70px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 315px;
+        height: 99px;
+  }
+  .poster {
+        position: absolute;
+        top: 79px;
+        left: 136px;
+        font-size: 60px;
+        letter-spacing: -0.05em;
+        line-height: 70px;
+        font-family: 'TeX Gyre Termes';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 256px;
+        height: 126px;
+  }
+  .ublic {
+        position: absolute;
+        top: 83px;
+        left: 17px;
+        letter-spacing: -0.09em;
+        line-height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 256px;
+        height: 126px;
+  }
+  .competition-group {
+        position: absolute;
+        top: 7690px;
+        left: 810px;
+        width: 392px;
+        height: 285px;
+        font-size: 50px;
+  }
+  .s1 {
+        position: absolute;
+        top: 11px;
+        left: 259px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 311px;
+        height: 290px;
+  }
+  .o {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        letter-spacing: -0.09em;
+        display: inline-block;
+        width: 311px;
+        height: 290px;
+  }
+  .ur-ponsors {
+        position: absolute;
+        top: 38px;
+        left: 133px;
+        font-size: 150px;
+        letter-spacing: -0.09em;
+        font-family: 'TeX Gyre Termes';
+        white-space: pre-wrap;
+        display: inline-block;
+        width: 771px;
+        height: 199px;
+  }
+  .s-parent {
+        position: absolute;
+        top: 8986px;
+        left: 368px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 904px;
+        height: 301px;
+        font-size: 250px;
+        color: #fff;
+        font-family: 'Pinyon Script';
+  }
+  .icon10 {
+        position: absolute;
+        top: 9501px;
+        left: 683px;
+        width: 532.8px;
+        height: 517.1px;
+        object-fit: contain;
+  }
+  .icon11 {
+        position: absolute;
+        top: 1230px;
+        left: -270px;
+        width: 532.8px;
+        height: 517.1px;
+        object-fit: contain;
+  }
+  .icon12 {
+        position: absolute;
+        top: 542px;
+        left: 394px;
+        width: 118px;
+        height: 93px;
+        object-fit: cover;
+  }
+  .icon13 {
+        position: absolute;
+        top: 2719px;
+        left: 1002px;
+        width: 118px;
+        height: 93px;
+        object-fit: cover;
+  }
+  .icon14 {
+        position: absolute;
+        top: 7719px;
+        left: 794px;
+        width: 540px;
+        height: 730.8px;
+        object-fit: contain;
+  }
+  .icon15 {
+        position: absolute;
+        top: 7181px;
+        left: 95px;
+        width: 606.2px;
+        height: 341px;
+        object-fit: cover;
+  }
+  .icon16 {
+        position: absolute;
+        top: 6439px;
+        left: 747px;
+        width: 540.4px;
+        height: 304px;
+        object-fit: cover;
+  }
+  .icon17 {
+        position: absolute;
+        top: 175px;
+        left: 723px;
+        width: 574.2px;
+        height: 438px;
+        object-fit: cover;
+  }
+  .div1 {
+        position: absolute;
+        top: 4332px;
+        left: -51px;
+        width: 554.2px;
+        height: 512px;
+  }
+  .desktop-1-child8 {
+        position: absolute;
+        top: 9257px;
+        left: 187px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 95px;
+        background-color: #d9d9d9;
+        width: 1065px;
+        height: 604px;
+  }
+  .desktop-1-child9 {
+        position: absolute;
+        top: 8457px;
+        left: 434px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 46.5px;
+        background-color: #fff;
+        width: 572px;
+        height: 93px;
+  }
+  .guidebook {
+        position: absolute;
+        top: 8457px;
+        left: 461px;
+        font-size: 70px;
+        display: inline-block;
+        width: 517px;
+        height: 159px;
+  }
+  .desktop-1-child10 {
+        position: absolute;
+        top: 8589px;
+        left: 434px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 46.5px;
+        background-color: #5d0000;
+        width: 572px;
+        height: 93px;
+  }
+  .register-now {
+        position: absolute;
+        top: 8575px;
+        left: 461px;
+        font-size: 70px;
+        display: inline-block;
+        font-family: 'TeX Gyre Termes';
+        color: #fff;
+        width: 517px;
+        height: 159px;
+  }
+  .icon18 {
+        position: absolute;
+        top: 1649px;
+        left: 785px;
+        width: 649.9px;
+        height: 670.5px;
+        object-fit: contain;
+  }
+  .icon19 {
+        position: absolute;
+        top: 1447px;
+        left: 683px;
+        width: 598.9px;
+        height: 683.8px;
+        object-fit: contain;
+  }
+  .icon20 {
+        position: absolute;
+        top: 2013px;
+        left: 963px;
+        width: 430.5px;
+        height: 488.3px;
+        object-fit: contain;
+  }
+  .desktop-1-child11 {
+        position: absolute;
+        top: 10018px;
+        left: 0px;
+        background-color: #fff;
+        width: 1440px;
+        height: 100px;
+  }
+  .nmgbc-2025 {
+        position: absolute;
+        top: 10057px;
+        left: 60px;
+        text-align: left;
+        display: inline-block;
+        width: 753px;
+        height: 58px;
+  }
+  .instagram-icon {
+        position: absolute;
+        top: 10044px;
+        left: 1273px;
+        width: 48px;
+        height: 48px;
+        overflow: hidden;
+  }
+  .ellipse-div {
+        position: absolute;
+        top: 4067px;
+        left: 647px;
+        border-radius: 50%;
+        background-color: #0a053f;
+        width: 18px;
+        height: 18px;
+  }
+  .desktop-1-child12 {
+        position: absolute;
+        top: 4067px;
+        left: 686.99px;
+        border-radius: 50%;
+        background-color: #757575;
+        width: 18px;
+        height: 18px;
+  }
+  .desktop-1-child13 {
+        position: absolute;
+        top: 4067px;
+        left: 726.99px;
+        border-radius: 50%;
+        background-color: #757575;
+        width: 18px;
+        height: 18px;
+  }
+  .desktop-1-child14 {
+        position: absolute;
+        top: 4067px;
+        left: 766.98px;
+        border-radius: 50%;
+        background-color: #757575;
+        width: 18px;
+        height: 18px;
+  }
+  .arrow-right-circle-icon {
+        position: absolute;
+        top: 4053px;
+        left: 838px;
+        width: 48px;
+        height: 48px;
+        overflow: hidden;
+  }
+  .arrow-left-circle-icon {
+        position: absolute;
+        top: 4053px;
+        left: 543px;
+        width: 48px;
+        height: 48px;
+        overflow: hidden;
+  }
+  .dsc01674-1-icon {
+        position: absolute;
+        top: 3241px;
+        left: 240px;
+        width: 959.1px;
+        height: 641px;
+        object-fit: cover;
+  }
+  .icon21 {
+        position: absolute;
+        top: 9021px;
+        left: 188px;
+        width: 185.9px;
+        height: 219px;
+        object-fit: cover;
+  }
+  .vector-icon {
+        position: absolute;
+        top: 6093.5px;
+        left: 312px;
+        max-height: 100%;
+        width: 826.5px;
+  }
+  .group-icon {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 541px;
+        height: 618px;
+        object-fit: cover;
+  }
+  .group-div {
+        position: absolute;
+        top: 210px;
+        left: 764px;
+        width: 541px;
+        height: 618px;
+  }
+  .desktop-1 {
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        height: 10092px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 20px;
+        color: #5d0000;
+        font-family: 'Open Sauce Sans';
+  }
+  
+  
