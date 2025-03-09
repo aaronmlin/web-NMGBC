@@ -225,5 +225,26 @@
                 <img class="group-icon" alt="" src="assets/Asset [PNG]/Logo.png">
             </div>
         </div>
+
+        <script>
+          function scrollToSection(triggerId, targetData) {
+              var triggerElement = document.getElementById(triggerId);
+              if (triggerElement) {
+                  triggerElement.addEventListener("click", function () {
+                      var targetElement = document.querySelector("[data-scroll-to='" + targetData + "']");
+                      if (targetElement) {
+                          targetElement.scrollIntoView({ block: "start", behavior: "smooth" });
+                      }
+                  });
+              }
+          }
+        
+          scrollToSection("homeText", "ationalMedicalAnd");
+          scrollToSection("themeText", "thisYearsText");
+          scrollToSection("historyText", "hroughoutText");
+          scrollToSection("competitionsText", "ompetitionText");
+          scrollToSection("sponsorText", "urPonsorsText");
+        </script>
+        
     </body>
 </html>

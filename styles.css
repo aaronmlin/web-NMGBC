@@ -1,74 +1,9 @@
-@media screen and (max-width: 1024px) {
-    .desktop-1 {
-        font-size: 18px;
-    }
 
-    .desktop-1-child {
-        height: auto;
-    }
-
-    .ompetition-wrapper {
-        font-size: 80px; 
-        width: 90%;
-        left: 5%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .desktop-1 {
-        font-size: 16px;
-    }
-
-    .ompetition-wrapper {
-        font-size: 60px;
-        width: 100%;
-        text-align: center;
-        left: 0;
-    }
-
-    .desktop-1-child {
-        height: auto;
-    }
-
-    .group-parent {
-        font-size: 200px;
-        width: 100%;
-    }
-
-    .register-now {
-        font-size: 50px;
-        width: 90%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .desktop-1 {
-        font-size: 14px;
-    }
-
-    .ompetition-wrapper {
-        font-size: 50px;
-    }
-
-    .register-now {
-        font-size: 40px;
-        padding: 10px;
-        width: 100%;
-    }
-
-    .group-parent {
-        font-size: 150px;
-        width: 100%;
-    }
-}
-    
-    
     .desktop-1-child {
         top: -141px;
-        left: -358px;
+        left: -328px;
         background: linear-gradient(-110deg, #5d0000 10%, #0a053f 30%, #8cacc9 47%, #5d0000);
-        width: 1997px;
+        width: 1920px;
         height: 10000px;
     }
   .ompetition {
@@ -1322,8 +1257,9 @@
         width: 541px;
         height: 618px;
   }
-  /* .desktop-1 {
+   .desktop-1 {
         width: 100vw;
+        max-width: 100%;
         position: relative;
         background-color: #fff;
         height: 10092px;
@@ -1333,21 +1269,7 @@
         color: #5d0000;
         font-family: 'Open Sauce Sans';
   }
-   */
-   .desktop-1 {
-    width: 100vw;
-    position: relative;
-    background-color: #fff;
-    min-height: 100vh; 
-    text-align: center;
-    font-size: 20px;
-    color: #5d0000;
-    font-family: 'Open Sauce Sans', sans-serif;
-}
+   
   html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
-
