@@ -1276,7 +1276,7 @@
     overflow-x: hidden;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
       .desktop-1 {
           width: 100%;
           height: auto;
@@ -1386,4 +1386,4 @@
           height: 30px;
       }
   }
-  
+   */
