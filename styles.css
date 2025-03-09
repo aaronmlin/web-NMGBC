@@ -3,10 +3,10 @@
         position: absolute;
         top: -141px;
         left: -358px;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(93, 0, 0, 0.9) 10%, rgba(10, 5, 63, 0.65) 25.5%, rgba(10, 5, 63, 0.9) 52.5%, rgba(93, 0, 0, 0.9));
+        background: linear-gradient(-110deg, #5d0000 10%, #0a053f 30%, #8cacc9 47%, #5d0000);
         width: 1997px;
-        height: 11328px;
-  }
+        height: 11320px;
+    }
   .ompetition {
         position: absolute;
         top: 0px;
@@ -30,7 +30,7 @@
   .c {
         position: absolute;
         top: 0px;
-        left: 0px;
+        left: -30px;
         letter-spacing: -0.09em;
         display: inline-block;
         width: 606px;
@@ -55,10 +55,11 @@
   .icon {
         position: absolute;
         top: 0px;
-        left: 499px;
-        width: 118px;
-        height: 93px;
+        left: 569px;
+        width: 59px; 
+        height: 46.5px; 
         object-fit: cover;
+        transform: rotate(90deg);
   }
   .group-parent {
         position: absolute;
@@ -130,6 +131,7 @@
   }
   .general-biology-competition {
         margin: 0;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .ational-medical-and-container {
         position: absolute;
@@ -465,10 +467,10 @@
         left: 188px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
         border-radius: 76px;
-        background: radial-gradient(50% 50% at 50% 50%, #fff, rgba(93, 0, 0, 0.1));
+        background: linear-gradient(25deg, #a21919 -30%, #f6f6f6 50%);
         width: 1065px;
         height: 631px;
-  }
+    }
   .icon4 {
         position: absolute;
         top: 2916px;
@@ -672,14 +674,14 @@
         left: 188px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 92px;
-        background: radial-gradient(50% 50% at 50% 50%, #fff, rgba(93, 0, 0, 0.1));
+        background: linear-gradient(300deg, #a21919 -20%, #f6f6f6 60%);
         width: 1065px;
         height: 657px;
-  }
+    }
   .icon6 {
         position: absolute;
         top: 6142px;
-        left: 778px;
+        left: 890px;
         width: 473.7px;
         height: 653px;
         object-fit: contain;
@@ -702,10 +704,10 @@
         left: 188px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 90px;
-        background: radial-gradient(50% 50% at 50% 50%, #fff, rgba(93, 0, 0, 0.1));
+        background: linear-gradient(120deg, #a21919 -20%, #f6f6f6 50%);
         width: 1065px;
         height: 610px;
-  }
+    }
   .the-public-poster-container {
         position: absolute;
         top: 7893px;
@@ -717,6 +719,7 @@
         display: inline-block;
         width: 529px;
         height: 382px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .iology-and-eneral-container {
         position: absolute;
@@ -741,9 +744,11 @@
         justify-content: center;
         width: 377px;
         height: 99px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .medicine-txt {
         width: 100%;
+        
   }
   .medicine {
         position: absolute;
@@ -803,19 +808,21 @@
         display: inline-block;
         width: 500px;
         height: 382px;
+        
   }
   .icon7 {
         position: absolute;
         top: 6920px;
-        left: 188px;
+        left: 80px;
         width: 473.7px;
         height: 653px;
-        object-fit: cover;
+        object-fit: contain;
+        transform: rotate(180deg);
   }
   .icon8 {
         position: absolute;
         top: 7670px;
-        left: 779px;
+        left: 890px;
         width: 473.7px;
         height: 653px;
         object-fit: contain;
@@ -840,6 +847,7 @@
         justify-content: center;
         width: 376px;
         height: 99px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .ealth {
         position: absolute;
@@ -852,6 +860,7 @@
         justify-content: center;
         width: 256px;
         height: 126px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .speech {
         position: absolute;
@@ -900,6 +909,7 @@
         justify-content: center;
         width: 315px;
         height: 99px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .poster {
         position: absolute;
@@ -926,6 +936,7 @@
         justify-content: center;
         width: 256px;
         height: 126px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .competition-group {
         position: absolute;
@@ -938,7 +949,7 @@
   .s1 {
         position: absolute;
         top: 11px;
-        left: 259px;
+        left: 220px;
         letter-spacing: -0.09em;
         display: inline-block;
         width: 311px;
@@ -956,7 +967,7 @@
   .ur-ponsors {
         position: absolute;
         top: 38px;
-        left: 133px;
+        left: 143px;
         font-size: 150px;
         letter-spacing: -0.09em;
         font-family: 'TeX Gyre Termes';
@@ -1010,19 +1021,20 @@
   }
   .icon14 {
         position: absolute;
-        top: 7719px;
-        left: 794px;
-        width: 540px;
-        height: 730.8px;
+        top: 7819px; 
+        left: 904px; 
+        width: 324px; 
+        height: 438.48px; 
         object-fit: contain;
-  }
+        transform: rotate(-70deg);
+    }
   .icon15 {
         position: absolute;
         top: 7181px;
         left: 95px;
         width: 606.2px;
         height: 341px;
-        object-fit: cover;
+        object-fit: contain;
   }
   .icon16 {
         position: absolute;
@@ -1030,7 +1042,7 @@
         left: 747px;
         width: 540.4px;
         height: 304px;
-        object-fit: cover;
+        object-fit: contain;
   }
   .icon17 {
         position: absolute;
@@ -1050,7 +1062,7 @@
   .desktop-1-child8 {
         position: absolute;
         top: 9257px;
-        left: 187px;
+        left: 270px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 95px;
         background-color: #d9d9d9;
@@ -1075,6 +1087,7 @@
         display: inline-block;
         width: 517px;
         height: 159px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .desktop-1-child10 {
         position: absolute;
@@ -1088,7 +1101,7 @@
   }
   .register-now {
         position: absolute;
-        top: 8575px;
+        top: 8595px;
         left: 461px;
         font-size: 70px;
         display: inline-block;
@@ -1218,10 +1231,10 @@
   .icon21 {
         position: absolute;
         top: 9021px;
-        left: 188px;
+        left: 270px;
         width: 185.9px;
         height: 219px;
-        object-fit: cover;
+        object-fit: contain;
   }
   .vector-icon {
         position: absolute;
@@ -1246,7 +1259,7 @@
         height: 618px;
   }
   .desktop-1 {
-        width: 100%;
+        width: 100vw;
         position: relative;
         background-color: #fff;
         height: 10092px;
