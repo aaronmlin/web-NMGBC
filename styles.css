@@ -1,82 +1,3 @@
-    /* @font-face {
-        font-family: 'Open Sauce';
-        src: url('fonts/open-sauce/OpenSauce-Regular.woff2') format('woff2'),
-                url('fonts/open-sauce/OpenSauce-Regular.woff') format('woff'),
-                url('fonts/open-sauce/OpenSauce-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'Pinyon Script';
-        src: url('fonts/pinyon-script/PinyonScript-Regular.woff2') format('woff2'),
-                url('fonts/pinyon-script/PinyonScript-Regular.woff') format('woff'),
-                url('fonts/pinyon-script/PinyonScript-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'Tex Gyre Termes';
-        src: url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff2') format('woff2'),
-                url('fonts/tex-gyre-termes/TexGyreTermes-Regular.woff') format('woff'),
-                url('fonts/tex-gyre-termes/TexGyreTermes-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    body {
-        font-family: 'Open Sauce', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f5f5f5;
-        color: #333;
-    }
-
-    header {
-        background-color: #002855;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-
-    h1 {
-        font-family: 'Pinyon Script', cursive;
-        font-size: 2.5em;
-        margin: 0;
-    }
-
-    p, li {
-        font-family: 'Tex Gyre Termes', serif;
-        font-size: 1.1em;
-    }
-
-    section {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-    }
-
-    h2 {
-        color: #002855;
-        font-size: 1.8em;
-    }
-
-    ul {
-        list-style-type: square;
-        padding-left: 20px;
-    }
-
-    footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #002855;
-        color: white;
-    } */
-
 
     .desktop-1-child {
         position: absolute;
@@ -156,6 +77,8 @@
         width: 1516.2px;
         height: 1426.4px;
         object-fit: contain;
+        transform: rotate(65deg);
+        transform-origin: center;
   }
   .desktop-1-item {
         position: absolute;
@@ -181,7 +104,7 @@
   .n {
         position: absolute;
         top: 0px;
-        left: 344px;
+        left: 312px;
         font-size: 80px;
         letter-spacing: -0.09em;
         font-family: 'Pinyon Script';
@@ -234,10 +157,10 @@
   }
   .the-national-medical {
         font-weight: 900;
-        font-family: 'Open Sauce Sans';
+        font-family: 'Open Sauce Sans'sans-serif;
   }
   .t {
-        font-family: 'Open Sauce Sans';
+        font-family: 'Open Sauce Sans' sans-serif;
   }
   .the-national-medical-container {
         position: absolute;
@@ -251,6 +174,7 @@
         display: inline-block;
         width: 1017px;
         height: 382px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .icon2 {
         position: absolute;
@@ -259,6 +183,7 @@
         width: 1652.3px;
         height: 1579px;
         object-fit: contain;
+        opacity: 0.3;
   }
   .icon3 {
         position: absolute;
@@ -289,8 +214,9 @@
   }
   .t1 {
         position: absolute;
-        top: 38px;
-        left: 0px;
+        top: 18px;
+        left: -22px;
+        right: 50px;
         font-size: 200px;
         letter-spacing: -0.09em;
         font-family: 'Pinyon Script';
@@ -331,6 +257,7 @@
         display: inline-block;
         width: 603px;
         height: 677px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .imeline {
         position: absolute;
@@ -555,7 +482,7 @@
         top: 0px;
         left: 0px;
         background-color: #fff;
-        width: 1440px;
+        width: 100vw;
         height: 100px;
   }
   .home {
@@ -567,6 +494,7 @@
         display: inline-block;
         width: 123px;
         height: 58px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .theme {
         position: absolute;
@@ -576,6 +504,7 @@
         display: inline-block;
         width: 123px;
         height: 58px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .timeline {
         position: absolute;
@@ -585,6 +514,7 @@
         display: inline-block;
         width: 172px;
         height: 58px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .history {
         position: absolute;
@@ -594,6 +524,7 @@
         display: inline-block;
         width: 172px;
         height: 58px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .competitions {
         position: absolute;
@@ -603,6 +534,7 @@
         display: inline-block;
         width: 172px;
         height: 58px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .sponsor {
         position: absolute;
@@ -612,14 +544,17 @@
         display: inline-block;
         width: 172px;
         height: 58px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .icon5 {
         position: absolute;
-        top: 3323px;
+        top: 3303px;
         left: -68px;
         width: 1545.7px;
         height: 1412.9px;
         object-fit: contain;
+        transform: rotate(310deg) scale(0.8);
+        transform-origin: center;
   }
   .desktop-1-child3 {
         position: absolute;
@@ -633,7 +568,7 @@
   }
   .register {
         position: absolute;
-        top: 26px;
+        top: 31px;
         left: 1235px;
         font-size: 30px;
         display: inline-block;
@@ -663,11 +598,12 @@
   .the1 {
         position: absolute;
         top: 204px;
-        left: 44px;
+        left: 50px;
         letter-spacing: -0.09em;
         display: inline-block;
         width: 516px;
         height: 165px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .ears {
         position: absolute;
@@ -677,11 +613,12 @@
         display: inline-block;
         width: 516px;
         height: 165px;
+        font-family: 'Open Sauce Sans', sans-serif;
   }
   .t3 {
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: -30px;
+        left: -35px;
         font-size: 300px;
         letter-spacing: -0.09em;
         font-family: 'Pinyon Script';
@@ -692,7 +629,7 @@
   .y {
         position: absolute;
         top: 178px;
-        left: 333px;
+        left: 313px;
         font-size: 250px;
         letter-spacing: -0.09em;
         font-family: 'Pinyon Script';
@@ -1098,7 +1035,7 @@
   .icon17 {
         position: absolute;
         top: 175px;
-        left: 723px;
+        left: 783px;
         width: 574.2px;
         height: 438px;
         object-fit: cover;
@@ -1189,7 +1126,7 @@
         top: 10018px;
         left: 0px;
         background-color: #fff;
-        width: 1440px;
+        width: 100vw;
         height: 100px;
   }
   .nmgbc-2025 {
@@ -1200,15 +1137,24 @@
         display: inline-block;
         width: 753px;
         height: 58px;
+        font-family: 'Open Sauce Sans' sans-serif;
   }
   .instagram-icon {
         position: absolute;
-        top: 10044px;
+        top: 10034px;
         left: 1273px;
         width: 48px;
         height: 48px;
         overflow: hidden;
   }
+  .phone-icon {
+    position: absolute;
+    top: 10034px;
+    left: 1383px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+}
   .ellipse-div {
         position: absolute;
         top: 4067px;
