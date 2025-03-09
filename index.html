@@ -218,9 +218,10 @@
             <div class="desktop-1-child12"></div>
             <div class="desktop-1-child13"></div>
             <div class="desktop-1-child14"></div>
-            <img class="arrow-right-circle-icon" alt="" src="assets/Asset [PNG]/Arrow right-circle.png">
-            <img class="arrow-left-circle-icon" alt="" src="assets/Asset [PNG]/Arrow left-circle.png">
-            <img class="dsc01674-1-icon" alt="" src="img/Photos sliding/DSC01674.JPG">
+            <img class="arrow-left-circle-icon" alt="Previous" src="assets/Asset [PNG]/Arrow left-circle.png" onclick="prevImage()">
+            <img class="dsc01674-1-icon" id="sliderImage" alt="Slider" src="img/Photos sliding/DSC01674.JPG">
+            <img class="arrow-right-circle-icon" alt="Next" src="assets/Asset [PNG]/Arrow right-circle.png" onclick="nextImage()">
+
             <img class="icon21" alt="" src="assets/Asset [PNG]/half circle.png">
             <svg width="827" height="5" viewBox="0 0 827 5" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M826.5 2.5H0" stroke="white" stroke-width="4"/>
@@ -249,6 +250,51 @@
           scrollToSection("historyText", "hroughoutText");
           scrollToSection("competitionsText", "ompetitionText");
           scrollToSection("sponsorText", "urPonsorsText");
+
+          const images = [
+            "img/Photos sliding/_DSC4736.JPG",
+            "img/Photos sliding/_DSC4754.JPG",
+            "img/Photos sliding/_DSC4759.JPG",
+            "img/Photos sliding/_DSC4778.JPG",
+            "img/Photos sliding/DSC01289.JPG",
+            "img/Photos sliding/DSC01329.JPG",
+            "img/Photos sliding/DSC01350.JPG",
+            "img/Photos sliding/DSC01355.JPG",
+            "img/Photos sliding/DSC01414.JPG",
+            "img/Photos sliding/DSC01630.JPG",
+            "img/Photos sliding/DSC01674.JPG",
+            "img/Photos sliding/DSC01677.JPG",
+            "img/Photos sliding/DSC01701.JPG",
+            "img/Photos sliding/IMG_1913.JPG",
+            "img/Photos sliding/IMG_5154.JPG",
+            "img/Photos sliding/IMG_5169.JPG",
+            "img/Photos sliding/IMG_5765.JPG",
+            "img/Photos sliding/IMG_8897.JPG",
+            "img/Photos sliding/IMG_9117.JPG",
+            "img/Photos sliding/IMG_9679.JPG",
+            "img/Photos sliding/IMG_20240518_075121.jpg"
+        ];
+          let currentIndex = 0; 
+
+          function showImage(index) {
+              if (index < 0) {
+                  currentIndex = images.length - 1; 
+              } else if (index >= images.length) {
+                  currentIndex = 0; 
+              } else {
+                  currentIndex = index;
+              }
+
+              document.getElementById("sliderImage").src = images[currentIndex];
+          }
+
+          function prevImage() {
+              showImage(currentIndex - 1);
+          }
+
+          function nextImage() {
+              showImage(currentIndex + 1);
+          }
         </script>
         
     </body>
