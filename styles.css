@@ -1276,45 +1276,21 @@
     overflow-x: hidden;
 }
 
-/* @media (max-width: 768px) {
-      .desktop-1 {
-          width: 100%;
-          height: auto;
-          overflow-x: hidden;
-      }
-  
+@media (max-width: 768px) {
       .desktop-1-child {
           width: 100%;
           left: 0;
           height: auto;
+          background-size: cover;
       }
   
       .ompetition-wrapper, .nmgbc-parent, .the-national-medical-container, 
-      .nmgbc-2025-dives-container, .rectangle-parent, 
-      .timeline, .group-parent, .hroughout-parent {
+      .nmgbc-2025-dives-container, .rectangle-parent, .timeline, 
+      .group-parent, .hroughout-parent {
           width: 90%;
           left: 5%;
           text-align: center;
           font-size: smaller;
-      }
-  
-      .group-container {
-          width: 100%;
-          text-align: center;
-      }
-  
-      .desktop-1-item {
-          width: 90%;
-          left: 5%;
-          height: auto;
-          border-radius: 30px;
-      }
-  
-      .register-now, .guidebook {
-          width: 80%;
-          left: 10%;
-          font-size: 20px;
-          text-align: center;
       }
   
       .icon, .icon1, .icon2, .icon3, .icon4, .icon5, 
@@ -1322,23 +1298,23 @@
       .icon11, .icon12, .icon13, .icon14, .icon15,
       .icon16, .icon17, .icon18, .icon19, .icon20, 
       .icon21 {
-          width: 60%;
+          width: 80%;
           height: auto;
-          left: 20%;
+          left: 10%;
       }
   
       .nmgbc {
-          font-size: 80px;
+          font-size: 60px;
           left: 10%;
       }
   
       .n {
-          font-size: 50px;
+          font-size: 40px;
           left: 10%;
       }
   
       .div {
-          font-size: 100px;
+          font-size: 80px;
           left: 0;
       }
   
@@ -1351,13 +1327,17 @@
   
       .home, .theme, .timeline, .history, 
       .competitions, .sponsor {
-          font-size: 20px;
+          font-size: 18px;
           width: 100%;
           text-align: center;
       }
   
-      .desktop-1-child2 {
-          height: auto;
+      .register-now, .guidebook {
+          width: 80%;
+          left: 10%;
+          font-size: 18px;
+          text-align: center;
+          padding: 10px 0;
       }
   
       .arrow-right-circle-icon, .arrow-left-circle-icon {
@@ -1371,12 +1351,8 @@
           left: 0;
       }
   
-      .rectangle-parent {
-          height: auto;
-      }
-  
       .nmgbc-2025 {
-          font-size: 16px;
+          font-size: 14px;
           width: 100%;
           text-align: center;
       }
@@ -1385,5 +1361,3 @@
           width: 30px;
           height: 30px;
       }
-  }
-   */
